@@ -1,0 +1,11 @@
+.landing-page {
+   display: grid;
+}
+
+.landing-page-banner {
+   background-color: blue;
+}
+
+.lp-logo {
+   color: red;
+}

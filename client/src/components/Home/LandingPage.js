@@ -5,18 +5,22 @@ const LandingPage = () => {
    return(
       <div className="landing-page">
          <div className="landing-page-banner">
-            <span className="lp-logo"><h1> DASH </h1></span>
+            <h1> DASH </h1>
          </div>
          <div className="lp-second-page">
             <div className="lp-item-1">
-
+               <h1> Item 1 </h1>
+               <p> Item 1 description </p>
             </div>
             <div className="lp-item-2">
-
+               <h1> Item 2 </h1>
+               <p> Item 2 description</p>
             </div>
             <div className="lp-item-3">
-
+               <h1> Item 3 </h1>
+               <p> Item 3 description </p>
             </div>
+
          </div>
       </div>
    )

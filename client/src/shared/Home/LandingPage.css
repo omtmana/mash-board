@@ -5,29 +5,37 @@
 }
 
 .landing-page-banner {
-  background-color: blue;
+  background-color: rgba(0, 0, 255, .55);
   height: 30rem;
   width: 30rem;
   border-radius: 30em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.lp-main-tag {
+  color: white;
+}
+
+.landing-page-div-two {
+  border: solid 1px black;
+  height: 100%;
+  width: 100%;
+  margin-top: 5em;
 }
 
 .lp-second-page {
   padding-top: 2em;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
-.lp-item-1 {
-  padding-left: 2em;
-  padding-right: 2em;
-}
-
-.lp-item-2 {
-  padding-left: 2em;
-  padding-right: 2em;
-}
-
+.lp-item-1, 
+.lp-item-2, 
 .lp-item-3 {
   padding-left: 2em;
   padding-right: 2em;
+  border: solid 1px red;
 }
+

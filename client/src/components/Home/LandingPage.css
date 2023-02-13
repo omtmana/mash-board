@@ -1,27 +1,34 @@
 .landing-page {
    display: grid;
+   place-items: center;
+   padding-top: 2em;
 }
 
 .landing-page-banner {
    background-color: blue;
+   height: 30rem;
+   width: 30rem;
+   border-radius: 30em;
 }
 
-.lp-logo {
-   color: red;
-}
 
 .lp-second-page {
+   padding-top: 2em;
    display: flex;
+   justify-content: space-between;
 }
 
 .lp-item-1 {
-
+   padding-left: 2em;
+   padding-right: 2em;
 }
 
 .lp-item-2 {
-
+      padding-left: 2em;
+   padding-right: 2em;
 }
 
 .lp-item-3 {
-   
+      padding-left: 2em;
+   padding-right: 2em;
 }

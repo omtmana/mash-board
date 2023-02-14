@@ -1,7 +1,10 @@
 .landing-page {
+  border: solid 1px black;
   display: grid;
   place-items: center;
   padding-top: 2em;
+  padding-bottom: 2em;
+  height: 100%;
 }
 
 .landing-page-banner {
@@ -16,13 +19,16 @@
 
 .lp-main-tag {
   color: white;
+  font-size: 5rem;
 }
 
 .landing-page-div-two {
-  border: solid 1px black;
-  height: 100%;
+  /* border: solid 1px black; */
+  background-color: rgba(255, 228, 196, .7);
+  border-radius: 3em;
   width: 100%;
-  margin-top: 5em;
+  margin-top: 10rem;
+  padding: 1em;
 }
 
 .lp-second-page {
@@ -36,6 +42,6 @@
 .lp-item-3 {
   padding-left: 2em;
   padding-right: 2em;
-  border: solid 1px red;
+  /* border: solid 1px red; */
 }
 

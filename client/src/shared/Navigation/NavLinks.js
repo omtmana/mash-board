@@ -6,9 +6,9 @@ import './NavLinks.css'
 const NavLinks = (props) => {
    return(
       <ul>
-         <li>
+         {/* <li>
             <NavLink to='/'> All Users </NavLink>
-         </li>
+         </li> */}
       </ul>
    )
 }

@@ -12,13 +12,13 @@ const MainNavigation = (props) => {
             <span />
          </button> */}
          <h1>
-            <Link to='/'> Dash </Link>
+            <Link to='/' style={{textDecoration: 'none'}}> Dash </Link>
          </h1>
          <h3>
-            <Link to='/login'> Login </Link>
+            <Link to='/login' style={{ textDecoration: 'none' }}> Login </Link>
          </h3>
          <button>
-            <Link to='/signup'> Sign Up </Link>
+            <Link to='/signup' style={{ textDecoration: 'none' }}> Sign Up </Link>
          </button>
          <nav>
             <NavLinks />

@@ -1,0 +1,15 @@
+.user-sign-up {
+   border: solid 2px black;
+   padding-top: 2em;
+   padding-bottom: 2em;
+}
+
+.user-sign-up-form {
+   display: flex;
+   flex-direction: column;
+   padding: 0 10em 0 10em;
+}
+
+.user-sign-up-form input {
+   margin-bottom: 1em;
+}

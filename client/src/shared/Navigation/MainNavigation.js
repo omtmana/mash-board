@@ -8,12 +8,18 @@ import NavLinks from "./NavLinks";
 const MainNavigation = (props) => {
    return(
       <MainHeader>
-         <button>
+         {/* <button>
             <span />
-         </button>
+         </button> */}
          <h1>
             <Link to='/'> Dash </Link>
          </h1>
+         <h3>
+            <Link to='/login'> Login </Link>
+         </h3>
+         <button>
+            <Link to='/signup'> Sign Up </Link>
+         </button>
          <nav>
             <NavLinks />
          </nav>

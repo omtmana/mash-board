@@ -1,6 +1,7 @@
 .login {
-   border: solid 1px salmon;
+   /* border: solid 1px salmon; */
    padding-bottom: 2em;
+   padding-top: 5em;
 }
 
 .login-form {
@@ -8,11 +9,12 @@
    flex-direction: column;
    padding: 2em 10em 2em 10em;
    margin: 1em 1em;
-   border: solid 1px green;
+   /* border: solid 1px green; */
 }
 
 .login-form input {
-   margin-bottom: 1em;
+   width: 70%;
+   margin: .5em auto
 }
 
 .login-form button {
@@ -22,6 +24,5 @@
    border: solid 1px white;
    border-radius: .5em;
    width: 70%;
-   margin-left: auto;
-   margin-right: auto;
+   margin: .5em auto;
 }

@@ -1,6 +1,5 @@
 # MASH
-   - A web application that you didn't know you needed. As human beings, we are visual people
-
+   - A web application that you didn't know you needed.
 ## Programing Languages
    - Javascript
       - ReactJS

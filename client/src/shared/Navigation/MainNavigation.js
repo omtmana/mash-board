@@ -15,6 +15,9 @@ const MainNavigation = (props) => {
             <Link to='/' style={{textDecoration: 'none'}}> Dash </Link>
          </h1>
          <h3>
+            <Link to='/user'> Profile </Link>
+         </h3>
+         <h3>
             <Link to='/login' style={{ textDecoration: 'none' }}> Login </Link>
          </h3>
          <button>

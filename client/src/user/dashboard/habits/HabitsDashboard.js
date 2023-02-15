@@ -2,7 +2,9 @@ import React from "react";
 
 const HabitsDashboard = () => {
    return(
-      <div></div>
+      <div>
+         <h1> Habits Tracker Data page  </h1>
+      </div>
    )
 }
 

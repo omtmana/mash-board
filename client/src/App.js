@@ -8,6 +8,8 @@ import UserSignUp from './shared/Home/UserSignUp';
 import MainNavigation from './shared/Navigation/MainNavigation';
 import UserProfile from './user/UserProfile';
 import FinanceDashboard from '../src/user/dashboard/finance/FinanceDashboard'
+import HabitDashboard from '../src/user/dashboard/habits/HabitsDashboard'
+
 
 function App() {
   return (
@@ -21,6 +23,7 @@ function App() {
           <Route path='/signup' element={<UserSignUp />}/>
           <Route path='/user' element={<UserProfile />} />
           <Route path='/finance' element={<FinanceDashboard />}/>
+          <Route path='/habit' element={<HabitDashboard />} />
         </Routes>
       </Router>
     </div>

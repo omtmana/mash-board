@@ -50,7 +50,16 @@
 }
 
 .lp-item-1:hover {
-  background-color: pink;
-  /* font-size: 150%; */
+  border: 3.5px solid salmon;
+  border-radius: 2em;
 }
 
+.lp-item-2:hover {
+  border: 3.5px solid salmon;
+  border-radius: 2em;
+}
+
+.lp-item-3:hover {
+  border: 3.5px solid salmon;
+  border-radius: 2em;
+}

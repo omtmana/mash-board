@@ -8,14 +8,15 @@
 }
 
 .landing-page-banner {
-  /* background-color: rgba(0, 0, 255, .55); */
+  background-image: linear-gradient(to right, red , yellow);
   border: 1.5px solid black;
-  height: 30rem;
-  width: 30rem;
+  height: 80vh;
+  width: 80vh;
   border-radius: 30rem;
   display: flex;
   justify-content: center;
   align-items: center;
+
 }
 
 .lp-main-tag {

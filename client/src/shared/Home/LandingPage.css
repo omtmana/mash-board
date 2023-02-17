@@ -49,3 +49,8 @@
   /* border: solid 1px red; */
 }
 
+.lp-item-1:hover {
+  background-color: pink;
+  /* font-size: 150%; */
+}
+

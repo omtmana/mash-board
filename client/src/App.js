@@ -7,6 +7,7 @@ import UserSignUp from './shared/Home/UserSignUp';
 // import MainHeader from './shared/Navigation/MainHeader';
 import MainNavigation from './shared/Navigation/MainNavigation';
 import UserProfile from './user/UserProfile';
+import FinanceDashboard from '../src/user/dashboard/finance/FinanceDashboard'
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route path='/login' element={<Login />} />
           <Route path='/signup' element={<UserSignUp />}/>
           <Route path='/user' element={<UserProfile />} />
+          <Route path='/finance' element={<FinanceDashboard />}/>
         </Routes>
       </Router>
     </div>
